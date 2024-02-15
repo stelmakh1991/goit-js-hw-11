@@ -4,6 +4,9 @@ import 'simplelightbox/dist/simple-lightbox.min.css';
 import iziToast from 'izitoast';
 import 'izitoast/dist/css/iziToast.min.css';
 
+import iconClose from '../img/iconClose.svg';
+import iconSuccess from '../img/iconSuccess.svg';
+
 const galleryContainer = document.querySelector('.gallery');
 
 const searchForm = document.querySelector('.search-form');
@@ -69,7 +72,7 @@ function toastError(message) {
     message,
     backgroundColor: '#EF4040',
     progressBarColor: '#FFE0AC',
-    icon: 'icon-close',
+    iconUrl: iconClose,
     ...toastOptions,
   });
 }
@@ -80,7 +83,7 @@ function toastSuccess(message) {
     message,
     backgroundColor: '#59A10D',
     progressBarColor: '#B5EA7C',
-    icon: 'icon-chek',
+    iconUrl: iconSuccess,
     ...toastOptions,
   });
 }
