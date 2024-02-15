@@ -168,6 +168,7 @@ ul {
   padding-left: 16px;
   box-sizing: border-box;
   background-color: transparent;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 .image-query:hover {
@@ -185,6 +186,7 @@ button {
   padding: 8px 16px 8px 16px;
   border: none;
   border-radius: 8px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   font-weight: 500;
   letter-spacing: 0.64px;
   background-color: #4e75ff;
@@ -229,6 +231,7 @@ figure {
   display: block;
   position: relative;
   border: 1px solid #808080;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 .gallery__figcaption {
@@ -246,7 +249,7 @@ figure {
 }
 
 .image-item {
-  color: #2F4F4F;
+  color: #2e2f42;
   font-weight: 600;
   font-size: 12px;
   line-height: 133%;
