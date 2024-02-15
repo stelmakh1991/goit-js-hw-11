@@ -85,7 +85,6 @@ function toastSuccess(message) {
   });
 }
 
-
 const BASE_URL = 'https://pixabay.com/api/';
 
 
@@ -108,7 +107,6 @@ function fetchImages(q) {
       throw error;
     });
 }
-
 
 function createGallery({
   largeImageURL,
